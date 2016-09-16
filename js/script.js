@@ -35,10 +35,10 @@ $(function(){
 		
 		// Shuffle the container with custom text
 		container.shuffleLetters({
-			"text": "Test it for yourself!"
+			"text": "Test it Yourself Too !"
 		});
 		
-		userText.val("type anything and hit return..").fadeIn();
+		userText.val("type here and press Enter.").fadeIn();
 		
 	},4000);
 	
