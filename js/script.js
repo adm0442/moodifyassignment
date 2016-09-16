@@ -3,7 +3,7 @@ $(function(){
 	// container is the DOM element;
 	// userText is the textbox
 	
-	var container = $("#container")
+	var container = $("#page-contena")
 		userText = $('#userText'); 
 	
 	// Shuffle the contents of container
