@@ -28,9 +28,24 @@ $(document).ready(function(){
             </h1>
             <!-- NB: glyphicon halflings are generally not free, but the developer made them free in bootstrap -->
 
+
+  <div class="btn-wrapper">
+                <label class="btn btn-info" for="my-file-selector">
+                    <input id="my-file-selector" type="file">
+                    Click This Button if you dont want to go ahead
+                </label>
+                <button type="button" class="btn btn-info" id="refreshbtn">Start Animation</button>
+            </div>
+
+
+
             <h2 id="page-header">
                 Get song recommendations based on your mood.
             </h2>
+            
+            
+            
+            
             <img id="selected-img" src="">
             <h4 id="track-name"></h4>
 
@@ -43,13 +58,7 @@ $(document).ready(function(){
             </div>
             
             
-              <div class="btn-wrapper">
-                <label class="btn btn-info" for="my-file-selector">
-                    <input id="my-file-selector" type="file">
-                    Click This Button if you dont want to go ahead
-                </label>
-                <button type="button" class="btn btn-info" id="refreshbtn">Start Animation</button>
-            </div>
+            
             
             
             
